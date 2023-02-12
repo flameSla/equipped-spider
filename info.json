@@ -4,7 +4,7 @@
     "title": "Equipped Spider",
     "author": "flame_Sla",
     "contact": "",
-    "homepage": "",
+    "homepage": "https://github.com/flameSla/equipped-spider",
     "factorio_version": "1.1",
     "dependencies": ["base >= 1.1"],
     "description": "Added spiders whose equipment is pre-installed"
