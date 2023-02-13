@@ -224,8 +224,8 @@ function create_new_spider(name_of_new_spider, ingredients_of_new_spider)
 create_spidertron
 {
     name = name_of_new_spider,
-	grid = "spidertron-equipment-grid-locked",
-	leg_movement_speed = 1,
+    grid = "spidertron-equipment-grid-locked",
+    leg_movement_speed = 1,
     leg_thickness = 1
 }
 data:extend(
@@ -255,15 +255,15 @@ end
 -- #########################################
 create_new_spider
 (
-	"spider-fast",
-	{
-		{"spidertron", 1},
-		{"fusion-reactor-equipment", 1},
-		{"exoskeleton-equipment", 3},
-		{"battery-mk2-equipment", 4},
-		{"personal-laser-defense-equipment", 1},
-		{"personal-roboport-mk2-equipment", 1},
-		{"solar-panel-equipment", 3},
-		{"belt-immunity-equipment", 1}
-	}
+    "spider-fast",
+    {
+        {"spidertron", 1},
+        {"fusion-reactor-equipment", 1},
+        {"exoskeleton-equipment", 3},
+        {"battery-mk2-equipment", 4},
+        {"personal-laser-defense-equipment", 1},
+        {"personal-roboport-mk2-equipment", 1},
+        {"solar-panel-equipment", 3},
+        {"belt-immunity-equipment", 1}
+    }
 )
